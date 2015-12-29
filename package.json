@@ -1,6 +1,6 @@
 {
   "name": "nuclear-instance-container",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A nuclear-js module to save arbitrary objects as instances. To be used as a singleton registry for a nuclear-js app.",
   "main": "lib/index.js",
   "scripts": {
