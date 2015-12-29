@@ -37,7 +37,7 @@ instanceContainer.actions.set('config', newConfig)
 console.log(reactor.evaluate(getters.instance('config'))) // => Immutable(newConfig)
 
 // you can unset an instance at any point of time.
-instanceContainer.unset('config')
+instanceContainer.actions.unset('config')
 console.log(reactor.evaluate(getters.instance('config'))) // => undefined
 ```
 
